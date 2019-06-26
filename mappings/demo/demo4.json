@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/demo4",
+        "bodyPatterns": [
+            {"matchesJsonPath": "$[?(@.username == 'notAllowed@gmail.com')]"}
+        ]
+    },
+    "response": {
+        "status": 400,
+        "bodyFileName": "demo/demo2.json",
+        "transformers": ["response-template"],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

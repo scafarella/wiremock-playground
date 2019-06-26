@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/demo5"
+    },
+    "response": {
+        "status": 400,
+        "bodyFileName": "demo/demo5.json",
+        "transformers": ["response-template"],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

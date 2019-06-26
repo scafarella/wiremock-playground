@@ -1,0 +1,4 @@
+{
+    "username":"{{jsonPath request.body '$.username'}}",
+    "id": "{{randomValue type='UUID'}}"
+}

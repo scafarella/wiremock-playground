@@ -1,0 +1,6 @@
+{
+    "errorCode":"SYS_ERR_DEF",
+    "errorMessage":"'System default error! Please contact technical support'",
+    "referenceId": "{{randomValue type='UUID'}}",
+    "time": "{{now}}"
+}

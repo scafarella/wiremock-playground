@@ -1,0 +1,4 @@
+{
+    "template": true,
+    "test": "{{jsonPath request.body '$.packages.[0].packageId'}}"
+}
